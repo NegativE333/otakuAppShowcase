@@ -24,7 +24,7 @@ const styles = {
     btnBlack:
       "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
   
-    section: "flex justify-center items-center md:p-4 lg:p-16 sm:p-2",
+    section: "flex justify-center items-center md:p-4 lg:p-16 sm:p-4",
     subSection: "flex items-center w-full minmd:w-3/4",
     descDiv: "flex-1 w-full flex lg:justify-start flex-col md:mb-10 ",
   

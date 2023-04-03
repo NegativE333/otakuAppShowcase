@@ -30,10 +30,10 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
         {count ? 
         <div style={{display: "flex"}} className={`${reverse ? "fadeLeftMini" : "fadeRightMini"}`}>
           <img src={assets.DSScreen} className={`${styles.sectionImg} ${reverse ? "rotate-0" : "md:rotate-0 lg:rotate-12"} lg:h-[50%] lg:w-[50%] relative left-12 z-0`}/>
-          <img src={assets.NScreen} className={`${styles.sectionImg} ${reverse ? "-translate-x-28 lg:hover:-translate-x-28" : "rotate-12"} -translate-x-64 rotate-0 lg:h-[50%] lg:w-[50%] relative left-14 top-0 z-10`}/>
+          <img src={assets.NScreen} className={`${styles.sectionImg} ${reverse ? "-translate-x-28" : "rotate-12"} rotate-0 lg:h-[50%] lg:w-[50%] relative left-14 top-0 z-10`}/>
           </div>
           : 
-          <img src={mockupImg} className={`${styles.sectionImg} ${reverse ? "rotate-0" : "md:rotate-0 lg:rotate-12"} z-0 h-[50%] w-[50%]`}/>
+          <img src={mockupImg} className={`${styles.sectionImg} ${reverse ? "rotate-0" : "md:rotate-0 lg:rotate-12"} z-0 lg:h-[50%] lg:w-[50%]`}/>
           
         }
         
